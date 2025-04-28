@@ -24,6 +24,7 @@ You also need access to a database, like [Supabase](https://supabase.io/)
    ```bash
    git clone https://github.com/your-username/hmcts-case-management.git
    cd hmcts-case-management/backend
+   
 2. Install dependencies:  npm install
 3. Create a .env file in the backend directory with your database connection details.
 Example .env file for Supabase:
