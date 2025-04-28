@@ -34,12 +34,9 @@ SUPABASE_ANON_KEY=your-anon-key
    ###  **How to Run the Application (Development Environment)**
 This section will explain how to run both the frontend and backend together.
 
-#### Example:
-```markdown
 ## Running the Application
 
 1. Start the backend:
-   ```bash
    cd backend
    npm start
 2.In another terminal window, start the frontend: cd frontend
@@ -49,12 +46,6 @@ This will run the frontend on http://localhost:3000 and the backend on http://lo
 
 
 ### **Technologies Used**
-Mention the core technologies used in your project.
-
-#### Example:
-```markdown
-## Technologies Used
-
 - **Frontend:** React.js, Tailwind CSS
 - **Backend:** Node.js, Express.js, Supabase/PostgreSQL
 - **Database:** Supabase/PostgreSQL
