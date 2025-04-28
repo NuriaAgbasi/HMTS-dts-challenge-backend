@@ -26,10 +26,12 @@ You also need access to a database, like [Supabase](https://supabase.io/)
    cd hmcts-case-management/backend
 2. Install dependencies:  npm install
 3. Create a .env file in the backend directory with your database connection details.
-Example .env file for Supabase: SUPABASE_URL=your-supabase-url
+Example .env file for Supabase:
+ ```bash
+SUPABASE_URL=your-supabase-url
 SUPABASE_ANON_KEY=your-anon-key
-4. Run database migrations to set up the required tables (if using Supabase or PostgreSQL): npm run migrate
-5. Run node index.js This will start the server at http://localhost:5000.
+5. Run database migrations to set up the required tables (if using Supabase or PostgreSQL): npm run migrate
+6. Run node index.js This will start the server at http://localhost:5000.
 
    ###  **How to Run the Application (Development Environment)**
 This section will explain how to run both the frontend and backend together.
@@ -37,6 +39,7 @@ This section will explain how to run both the frontend and backend together.
 ## Running the Application
 
 1. Start the backend:
+    ```bash
    cd backend
    npm start
 2.In another terminal window, start the frontend: cd frontend
