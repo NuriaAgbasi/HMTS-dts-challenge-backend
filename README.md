@@ -29,8 +29,9 @@ You also need access to a database, like [Supabase](https://supabase.io/)
 3. Create a .env file in the backend directory with your database connection details.
 Example .env file for Supabase:
  ```bash
-SUPABASE_URL=your-supabase-url
-SUPABASE_ANON_KEY=your-anon-key
+  SUPABASE_URL=your-supabase-url
+  SUPABASE_ANON_KEY=your-anon-key
+
 5. Run database migrations to set up the required tables (if using Supabase or PostgreSQL): npm run migrate
 6. Run node index.js This will start the server at http://localhost:5000.
 
@@ -43,6 +44,7 @@ This section will explain how to run both the frontend and backend together.
     ```bash
    cd backend
    npm start
+
 2.In another terminal window, start the frontend: cd frontend
 npm start
 This will run the frontend on http://localhost:3000 and the backend on http://localhost:5000. The frontend will make API requests to the backend to manage tasks.
